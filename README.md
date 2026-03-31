@@ -102,9 +102,47 @@ src/
 ## 🌐 Deploy
 
 O sistema está configurado para deploy na **Vercel**:
-- Configuração automática via `vercel.json`
-- Variáveis de ambiente pré-configuradas
-- Build otimizado para produção
+
+### ✅ Repositório GitHub
+O código já está disponível em:  
+**https://github.com/rodrigoarnaldo/logisticasa2026.git**
+
+### 🚀 Deploy Manual no Vercel
+
+1. **Acesse a Vercel**:
+   - Entre em [vercel.com](https://vercel.com)
+   - Faça login com sua conta (GitHub, GitLab, ou email)
+
+2. **Importar Projeto**:
+   - Clique em **"Add New Project"** → **"Import Git Repository"**
+   - Conecte sua conta GitHub (se ainda não conectada)
+   - Selecione o repositório: **`rodrigoarnaldo/logisticasa2026`**
+
+3. **Configurar Projeto**:
+   - O Vercel detectará automaticamente as configurações do `vercel.json`
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+   - **Install Command**: `npm install`
+
+4. **Variáveis de Ambiente** (já configuradas no `vercel.json`):
+   - `VITE_SUPABASE_URL`: `https://bwkwhyfwwgzstcdhkowm.supabase.co`
+   - `VITE_SUPABASE_ANON_KEY`: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ3a3doeWZ3d2d6c3RjZGhrb3dtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5MTM1NjEsImV4cCI6MjA5MDQ4OTU2MX0.4a9ghDCS7w_7LBImCmWr1Pc5yxG9LoQRFXmV3bH58TU`
+
+5. **Deploy**:
+   - Clique em **"Deploy"**
+   - Aguarde o build (aproximadamente 2-3 minutos)
+   - Acesse a URL fornecida (ex: `https://logisticasa2026.vercel.app`)
+
+### 🔄 Deploy Automático
+- Cada push para a branch `master` no GitHub dispara um novo deploy
+- Rollback automático em caso de falha no build
+- Preview deployments para pull requests
+
+### ⚙️ Configuração Avançada
+- **Domínio Customizado**: Configure seu próprio domínio nas settings do projeto
+- **Environment Variables**: Adicione novas variáveis no painel da Vercel
+- **Analytics**: Monitoramento de performance e erros integrado
 
 ## 📊 Funcionalidades Futuras
 

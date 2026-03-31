@@ -17,6 +17,6 @@
   ],
   "env": {
     "VITE_SUPABASE_URL": "https://bwkwhyfwwgzstcdhkowm.supabase.co",
-    "VITE_SUPABASE_ANON_KEY": "sb_publishable_3t-OrCtjvfWe43taX4_jPA_G9UpwQO6"
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ3a3doeWZ3d2d6c3RjZGhrb3dtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5MTM1NjEsImV4cCI6MjA5MDQ4OTU2MX0.4a9ghDCS7w_7LBImCmWr1Pc5yxG9LoQRFXmV3bH58TU"
   }
 }
