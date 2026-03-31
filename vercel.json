@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_SUPABASE_URL": "https://bwkwhyfwwgzstcdhkowm.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "sb_publishable_3t-OrCtjvfWe43taX4_jPA_G9UpwQO6"
+  }
+}
